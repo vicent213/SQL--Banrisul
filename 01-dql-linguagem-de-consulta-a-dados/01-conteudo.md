@@ -39,6 +39,7 @@ FROM EXTRATO;
 
 ---
 
+![alt text](assets/sql-joins.png)
 
 ### 2. Filtros com a Cláusula WHERE
 
@@ -64,7 +65,7 @@ WHERE NOME_TITULAR = 'Rory Fry';
 
 ### 3. Operadores Lógicos e Comparativos
 
-A consulta permite o uso de operadores para filtrar e combinar múltiplas condições:
+A consulta DQL permite o uso de operadores para filtrar e combinar múltiplas condições:
 
 - **Operadores Lógicos**: `AND`, `OR`, `NOT`
 - **Operadores Comparativos**: `=`, `>`, `<`, `>=`, `<=`, `<>`
@@ -102,7 +103,7 @@ FROM REGISTRO
 ORDER BY VALOR DESC;
 ```
 
-**Resultado:**
+**Resultado:**\
 
 | ID  | VALOR  | ID_TIPO | ID_EXTRATO |
 |-----|--------|--------|-----------|
